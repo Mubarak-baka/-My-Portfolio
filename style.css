@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:cadetblue;
+    padding:20px;
+}
+/* navigation bar */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:bisque;
+    padding: 10px 20px;
+    border-radius: 8px;
+    position: sticky;
+}
+.nav img{ 
+   width: 50px;
+}
+
+
+/* h1 elemnt in nav */
+.nav h1{
+    color:black;
+    font-size: 24px;
+}
+/* nav links  */
+.nav a{
+    color:blue;
+    text-decoration: none;
+    padding:8px 16px;
+    background-color: azure;
+    border-radius: 40px ;
+    padding:15px;
+    transition: background-color 0.3s ease;
+}
+/* nav button */
+button{
+    padding:10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor:progress;
+}
+button:hover{
+    background-color: black;
+}
+
+.nav a:hover {
+    background-color: black;
+}
+/*  My information section */
+#info{
+    display: grid;
+    grid-template-columns:auto auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    align-items: center;
+    justify-content:space-around;
+    padding-bottom: 10px;
+}
+/* h5 element inside info */
+h5{
+    font-size: 24px;
+    color: #007bff;
+    margin: auto;
+
+}
+ #info p{
+    margin:10px auto;
+    line-height:1.6;
+    padding-bottom:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+#cv {
+background-color:#36454F;
+}
+
+#cv p{
+    margin: 10px 0;
+}
+
+#head{
+text-align: center;
+}
+
+#info img{
+    text-align: center;
+    margin: 20px auto;
+}
+#img img{
+    max-width: 250px;
+    border-radius: 70%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+/* page footer details */
+.footer{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.footer div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    gap:200px;
+    line-height: 5px;
+    vertical-align: middle;
+    margin-left: 50px;
+}
+
+    .footer p{
+        color: white;
+    }
+    .footer p:hover{
+        color: rgb(255, 0, 0);
+    }
+    .footer img{ 
+        width:50px;
+
+    }
+   
