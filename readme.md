@@ -11,7 +11,7 @@ Open the extracted folder with VSCode
 Go live or open the index.html file with chrome
 And you are all done
 ## Live server
-You can view the web live on [Portfolio]
+You can view the web live on https://mubarak-baka.github.io/-My-Portfolio/
 Known Bugs
 The application works perfectly well, no bugs.
 
@@ -22,6 +22,6 @@ HTML, CSS , Fontawesome icons, GIT
 email :: nassibmubarack@gmail.com
 
 ### License
-LIcenced under the [MT-licence] git@github.com:Mubarak-baka/-My-Portfolio.git
+LIcenced under the [MT-licence] https://github.com/Mubarak-baka/-My-Portfolio/blob/master/licence.md
 
-Copyright (c) 2024 MUBARAK NASSIB
+Copyright (c) 2024 MUBARAK NASSIB **MUBARAK NASSIB**
